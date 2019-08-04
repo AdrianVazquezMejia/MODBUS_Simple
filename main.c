@@ -39,6 +39,10 @@ int main(void)
     
     // initialize the device
     SYSTEM_Initialize();
+    
+    
+    
+    int j=0;
     InputRegister[0]=0;
     InputRegister[1]=0;
     HoldingRegister[0]=0x0A;
