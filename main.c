@@ -39,12 +39,11 @@ int main(void)
     
     // initialize the device
     SYSTEM_Initialize();
-    
     InputRegister[0]=0;
     InputRegister[1]=0;
     HoldingRegister[0]=0x0A;
     HoldingRegister[1]=0xD;
-    //LATB=0x000F;
+    LATB=0x000F;
     LATBbits.LATB0=1;
     
     while (1)
